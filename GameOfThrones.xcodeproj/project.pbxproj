@@ -9,11 +9,33 @@
 /* Begin PBXBuildFile section */
 		AEB26B2C1CFE8E120050FFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B2B1CFE8E120050FFA1 /* main.m */; };
 		AEB26B2F1CFE8E120050FFA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B2E1CFE8E120050FFA1 /* AppDelegate.m */; };
-		AEB26B321CFE8E120050FFA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B311CFE8E120050FFA1 /* ViewController.m */; };
+		AEB26B321CFE8E120050FFA1 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B311CFE8E120050FFA1 /* Start.m */; };
 		AEB26B351CFE8E120050FFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB26B331CFE8E120050FFA1 /* Main.storyboard */; };
 		AEB26B381CFE8E120050FFA1 /* GameOfThrones.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B361CFE8E120050FFA1 /* GameOfThrones.xcdatamodeld */; };
 		AEB26B3A1CFE8E120050FFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB26B391CFE8E120050FFA1 /* Assets.xcassets */; };
 		AEB26B3D1CFE8E120050FFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB26B3B1CFE8E120050FFA1 /* LaunchScreen.storyboard */; };
+		AEB26B961CFFBE170050FFA1 /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB26B951CFFBE170050FFA1 /* Results.m */; };
+		AEB26BB41CFFCF060050FFA1 /* dead.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26B9E1CFFCF060050FFA1 /* dead.png */; };
+		AEB26BB51CFFCF060050FFA1 /* game of throns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26B9F1CFFCF060050FFA1 /* game of throns.jpg */; };
+		AEB26BB81CFFCF060050FFA1 /* JoffreyPic.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA21CFFCF060050FFA1 /* JoffreyPic.png */; };
+		AEB26BB91CFFCF060050FFA1 /* John SnowPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA31CFFCF060050FFA1 /* John SnowPic.jpg */; };
+		AEB26BBA1CFFCF060050FFA1 /* Jojen Reed Pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA41CFFCF060050FFA1 /* Jojen Reed Pic.jpg */; };
+		AEB26BBB1CFFCF060050FFA1 /* live.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA51CFFCF060050FFA1 /* live.png */; };
+		AEB26BBC1CFFCF060050FFA1 /* Lysa ArrynPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA61CFFCF060050FFA1 /* Lysa ArrynPic.jpg */; };
+		AEB26BBE1CFFCF060050FFA1 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BA81CFFCF060050FFA1 /* next.png */; };
+		AEB26BC01CFFCF060050FFA1 /* Oberyn MartellPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAA1CFFCF060050FFA1 /* Oberyn MartellPic.jpg */; };
+		AEB26BC11CFFCF060050FFA1 /* Renly BaratheonPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAB1CFFCF060050FFA1 /* Renly BaratheonPic.jpg */; };
+		AEB26BC21CFFCF060050FFA1 /* robert baratheonPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAC1CFFCF060050FFA1 /* robert baratheonPic.jpg */; };
+		AEB26BC31CFFCF060050FFA1 /* Shireen BaratheonPic.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAD1CFFCF060050FFA1 /* Shireen BaratheonPic.png */; };
+		AEB26BC41CFFCF060050FFA1 /* Talisa StarkPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAE1CFFCF060050FFA1 /* Talisa StarkPic.jpg */; };
+		AEB26BC51CFFCF060050FFA1 /* The Three Eyed RavenPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BAF1CFFCF060050FFA1 /* The Three Eyed RavenPic.jpg */; };
+		AEB26BC81CFFD2B40050FFA1 /* warning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BC71CFFD2B40050FFA1 /* warning.jpg */; };
+		AEB26BCA1CFFD4FB0050FFA1 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BC91CFFD4FB0050FFA1 /* ok.png */; };
+		AEB26BCC1CFFD7950050FFA1 /* fail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BCB1CFFD7950050FFA1 /* fail.jpg */; };
+		AEB26BCF1CFFE3FF0050FFA1 /* looser.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BCD1CFFE3FF0050FFA1 /* looser.png */; };
+		AEB26BD01CFFE3FF0050FFA1 /* watchMore.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BCE1CFFE3FF0050FFA1 /* watchMore.png */; };
+		AEB26BD21D00FAEA0050FFA1 /* congrats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BD11D00FAEA0050FFA1 /* congrats.jpg */; };
+		AEB26BD41D00FBAD0050FFA1 /* winner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEB26BD31D00FBAD0050FFA1 /* winner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +43,36 @@
 		AEB26B2B1CFE8E120050FFA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEB26B2D1CFE8E120050FFA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEB26B2E1CFE8E120050FFA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AEB26B301CFE8E120050FFA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AEB26B311CFE8E120050FFA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEB26B301CFE8E120050FFA1 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		AEB26B311CFE8E120050FFA1 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		AEB26B341CFE8E120050FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEB26B371CFE8E120050FFA1 /* GameOfThrones.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameOfThrones.xcdatamodel; sourceTree = "<group>"; };
 		AEB26B391CFE8E120050FFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB26B3C1CFE8E120050FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB26B3E1CFE8E120050FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB26B941CFFBE170050FFA1 /* Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Results.h; sourceTree = "<group>"; };
+		AEB26B951CFFBE170050FFA1 /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Results.m; sourceTree = "<group>"; };
+		AEB26B9E1CFFCF060050FFA1 /* dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dead.png; sourceTree = "<group>"; };
+		AEB26B9F1CFFCF060050FFA1 /* game of throns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "game of throns.jpg"; sourceTree = "<group>"; };
+		AEB26BA21CFFCF060050FFA1 /* JoffreyPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoffreyPic.png; sourceTree = "<group>"; };
+		AEB26BA31CFFCF060050FFA1 /* John SnowPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John SnowPic.jpg"; sourceTree = "<group>"; };
+		AEB26BA41CFFCF060050FFA1 /* Jojen Reed Pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jojen Reed Pic.jpg"; sourceTree = "<group>"; };
+		AEB26BA51CFFCF060050FFA1 /* live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live.png; sourceTree = "<group>"; };
+		AEB26BA61CFFCF060050FFA1 /* Lysa ArrynPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lysa ArrynPic.jpg"; sourceTree = "<group>"; };
+		AEB26BA81CFFCF060050FFA1 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		AEB26BAA1CFFCF060050FFA1 /* Oberyn MartellPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oberyn MartellPic.jpg"; sourceTree = "<group>"; };
+		AEB26BAB1CFFCF060050FFA1 /* Renly BaratheonPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Renly BaratheonPic.jpg"; sourceTree = "<group>"; };
+		AEB26BAC1CFFCF060050FFA1 /* robert baratheonPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "robert baratheonPic.jpg"; sourceTree = "<group>"; };
+		AEB26BAD1CFFCF060050FFA1 /* Shireen BaratheonPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shireen BaratheonPic.png"; sourceTree = "<group>"; };
+		AEB26BAE1CFFCF060050FFA1 /* Talisa StarkPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Talisa StarkPic.jpg"; sourceTree = "<group>"; };
+		AEB26BAF1CFFCF060050FFA1 /* The Three Eyed RavenPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Three Eyed RavenPic.jpg"; sourceTree = "<group>"; };
+		AEB26BC71CFFD2B40050FFA1 /* warning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = warning.jpg; sourceTree = "<group>"; };
+		AEB26BC91CFFD4FB0050FFA1 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		AEB26BCB1CFFD7950050FFA1 /* fail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fail.jpg; sourceTree = "<group>"; };
+		AEB26BCD1CFFE3FF0050FFA1 /* looser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = looser.png; sourceTree = "<group>"; };
+		AEB26BCE1CFFE3FF0050FFA1 /* watchMore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watchMore.png; sourceTree = "<group>"; };
+		AEB26BD11D00FAEA0050FFA1 /* congrats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = congrats.jpg; sourceTree = "<group>"; };
+		AEB26BD31D00FBAD0050FFA1 /* winner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +105,8 @@
 		AEB26B291CFE8E120050FFA1 /* GameOfThrones */ = {
 			isa = PBXGroup;
 			children = (
-				AEB26B2D1CFE8E120050FFA1 /* AppDelegate.h */,
-				AEB26B2E1CFE8E120050FFA1 /* AppDelegate.m */,
-				AEB26B301CFE8E120050FFA1 /* ViewController.h */,
-				AEB26B311CFE8E120050FFA1 /* ViewController.m */,
+				AEB26B441CFE8E310050FFA1 /* Controller */,
+				AEB26B451CFE8E3F0050FFA1 /* Main */,
 				AEB26B331CFE8E120050FFA1 /* Main.storyboard */,
 				AEB26B391CFE8E120050FFA1 /* Assets.xcassets */,
 				AEB26B3B1CFE8E120050FFA1 /* LaunchScreen.storyboard */,
@@ -80,6 +123,55 @@
 				AEB26B2B1CFE8E120050FFA1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB26B441CFE8E310050FFA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB26B9A1CFFCF060050FFA1 /* Images */,
+				AEB26B301CFE8E120050FFA1 /* Start.h */,
+				AEB26B311CFE8E120050FFA1 /* Start.m */,
+				AEB26B941CFFBE170050FFA1 /* Results.h */,
+				AEB26B951CFFBE170050FFA1 /* Results.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AEB26B451CFE8E3F0050FFA1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AEB26B2D1CFE8E120050FFA1 /* AppDelegate.h */,
+				AEB26B2E1CFE8E120050FFA1 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AEB26B9A1CFFCF060050FFA1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEB26BD31D00FBAD0050FFA1 /* winner.jpg */,
+				AEB26BD11D00FAEA0050FFA1 /* congrats.jpg */,
+				AEB26BCD1CFFE3FF0050FFA1 /* looser.png */,
+				AEB26BCE1CFFE3FF0050FFA1 /* watchMore.png */,
+				AEB26BCB1CFFD7950050FFA1 /* fail.jpg */,
+				AEB26BC91CFFD4FB0050FFA1 /* ok.png */,
+				AEB26BC71CFFD2B40050FFA1 /* warning.jpg */,
+				AEB26B9E1CFFCF060050FFA1 /* dead.png */,
+				AEB26B9F1CFFCF060050FFA1 /* game of throns.jpg */,
+				AEB26BA21CFFCF060050FFA1 /* JoffreyPic.png */,
+				AEB26BA31CFFCF060050FFA1 /* John SnowPic.jpg */,
+				AEB26BA41CFFCF060050FFA1 /* Jojen Reed Pic.jpg */,
+				AEB26BA51CFFCF060050FFA1 /* live.png */,
+				AEB26BA61CFFCF060050FFA1 /* Lysa ArrynPic.jpg */,
+				AEB26BA81CFFCF060050FFA1 /* next.png */,
+				AEB26BAA1CFFCF060050FFA1 /* Oberyn MartellPic.jpg */,
+				AEB26BAB1CFFCF060050FFA1 /* Renly BaratheonPic.jpg */,
+				AEB26BAC1CFFCF060050FFA1 /* robert baratheonPic.jpg */,
+				AEB26BAD1CFFCF060050FFA1 /* Shireen BaratheonPic.png */,
+				AEB26BAE1CFFCF060050FFA1 /* Talisa StarkPic.jpg */,
+				AEB26BAF1CFFCF060050FFA1 /* The Three Eyed RavenPic.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +231,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB26BBA1CFFCF060050FFA1 /* Jojen Reed Pic.jpg in Resources */,
+				AEB26BCF1CFFE3FF0050FFA1 /* looser.png in Resources */,
+				AEB26BD41D00FBAD0050FFA1 /* winner.jpg in Resources */,
+				AEB26BB91CFFCF060050FFA1 /* John SnowPic.jpg in Resources */,
+				AEB26BC11CFFCF060050FFA1 /* Renly BaratheonPic.jpg in Resources */,
 				AEB26B3D1CFE8E120050FFA1 /* LaunchScreen.storyboard in Resources */,
 				AEB26B3A1CFE8E120050FFA1 /* Assets.xcassets in Resources */,
+				AEB26BCC1CFFD7950050FFA1 /* fail.jpg in Resources */,
+				AEB26BC01CFFCF060050FFA1 /* Oberyn MartellPic.jpg in Resources */,
+				AEB26BC81CFFD2B40050FFA1 /* warning.jpg in Resources */,
+				AEB26BC31CFFCF060050FFA1 /* Shireen BaratheonPic.png in Resources */,
+				AEB26BC51CFFCF060050FFA1 /* The Three Eyed RavenPic.jpg in Resources */,
+				AEB26BBB1CFFCF060050FFA1 /* live.png in Resources */,
+				AEB26BC41CFFCF060050FFA1 /* Talisa StarkPic.jpg in Resources */,
+				AEB26BBC1CFFCF060050FFA1 /* Lysa ArrynPic.jpg in Resources */,
 				AEB26B351CFE8E120050FFA1 /* Main.storyboard in Resources */,
+				AEB26BD01CFFE3FF0050FFA1 /* watchMore.png in Resources */,
+				AEB26BB51CFFCF060050FFA1 /* game of throns.jpg in Resources */,
+				AEB26BBE1CFFCF060050FFA1 /* next.png in Resources */,
+				AEB26BC21CFFCF060050FFA1 /* robert baratheonPic.jpg in Resources */,
+				AEB26BCA1CFFD4FB0050FFA1 /* ok.png in Resources */,
+				AEB26BB81CFFCF060050FFA1 /* JoffreyPic.png in Resources */,
+				AEB26BB41CFFCF060050FFA1 /* dead.png in Resources */,
+				AEB26BD21D00FAEA0050FFA1 /* congrats.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,9 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB26B381CFE8E120050FFA1 /* GameOfThrones.xcdatamodeld in Sources */,
-				AEB26B321CFE8E120050FFA1 /* ViewController.m in Sources */,
+				AEB26B321CFE8E120050FFA1 /* Start.m in Sources */,
 				AEB26B2F1CFE8E120050FFA1 /* AppDelegate.m in Sources */,
 				AEB26B2C1CFE8E120050FFA1 /* main.m in Sources */,
+				AEB26B961CFFBE170050FFA1 /* Results.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +418,7 @@
 				AEB26B431CFE8E120050FFA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

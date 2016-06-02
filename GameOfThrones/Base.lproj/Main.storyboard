@@ -1,25 +1,529 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Start-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
+                <viewController id="BYZ-38-t0r" customClass="Start" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="z09-re-8fo">
+                                <rect key="frame" x="0.0" y="20" width="320" height="1450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleAspectFill" id="XR2-lD-Mxv">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1450"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JoffreyPic.png" id="ph5-zI-eud">
+                                                <rect key="frame" x="21" y="414" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shireen BaratheonPic.png" id="0UT-cu-ToP">
+                                                <rect key="frame" x="21" y="111" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="John SnowPic.jpg" id="Wlt-Gs-GMd">
+                                                <rect key="frame" x="21" y="211" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jojen Reed Pic.jpg" id="XlH-p1-l3N">
+                                                <rect key="frame" x="21" y="311" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lysa ArrynPic.jpg" id="nBx-Yf-cXI">
+                                                <rect key="frame" x="21" y="514" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Oberyn MartellPic.jpg" id="Wac-CW-JqJ">
+                                                <rect key="frame" x="21" y="615" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robert baratheonPic.jpg" id="8yB-vo-URY">
+                                                <rect key="frame" x="21" y="716" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Talisa StarkPic.jpg" id="6uJ-JR-d4e">
+                                                <rect key="frame" x="21" y="815" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Renly BaratheonPic.jpg" id="mDe-ov-wju">
+                                                <rect key="frame" x="21" y="915" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="The Three Eyed RavenPic.jpg" id="XpA-6n-9tJ">
+                                                <rect key="frame" x="21" y="1016" width="140" height="95"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joffrey Baratheon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jL8-wZ-Hb0">
+                                                <rect key="frame" x="169" y="414" width="131" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shireen Baratheon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kk7-zo-6Rh">
+                                                <rect key="frame" x="169" y="111" width="126" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Snow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hd6-FH-iEh">
+                                                <rect key="frame" x="169" y="211" width="113" height="27"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jojen Reed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cge-tl-2Cy">
+                                                <rect key="frame" x="169" y="311" width="126" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lysa Arryn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9Jw-nM-Ose">
+                                                <rect key="frame" x="169" y="514" width="113" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oberyn Marteli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xvx-3j-dPd">
+                                                <rect key="frame" x="169" y="615" width="118" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robert Baratheon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mdh-xI-QKH">
+                                                <rect key="frame" x="169" y="716" width="118" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talisa Stark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x7I-KO-spd">
+                                                <rect key="frame" x="169" y="815" width="118" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Renly I Baretheon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f19-nW-xV2">
+                                                <rect key="frame" x="169" y="915" width="118" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Three-Eyed Raven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZKc-Jf-cGc">
+                                                <rect key="frame" x="169" y="1016" width="160" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="K4S-Nj-Ncn">
+                                                <rect key="frame" x="260" y="134" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="JyZ-jL-26y">
+                                                <rect key="frame" x="260" y="234" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="Dhm-qv-WJT">
+                                                <rect key="frame" x="260" y="334" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="5qL-oZ-wrS">
+                                                <rect key="frame" x="260" y="437" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="com-Hx-REl">
+                                                <rect key="frame" x="260" y="536" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="jG4-I3-qRp">
+                                                <rect key="frame" x="260" y="636" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="CKY-DX-jH5">
+                                                <rect key="frame" x="260" y="740" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="H1n-fc-TQj">
+                                                <rect key="frame" x="260" y="836" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="F1s-pJ-HSr">
+                                                <rect key="frame" x="260" y="937" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning.jpg" id="e9a-jz-NJB">
+                                                <rect key="frame" x="260" y="1039" width="22" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="lYw-tj-IgV">
+                                                <rect key="frame" x="191" y="134" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn1_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bS-Lt-fmS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="azu-Zd-ueZ">
+                                                <rect key="frame" x="191" y="160" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn2_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMX-rw-rh8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gXH-kR-hca">
+                                                <rect key="frame" x="191" y="236" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn3_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iet-dm-sO4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K58-SK-GeD">
+                                                <rect key="frame" x="191" y="262" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn4_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eqc-8I-qdk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VdW-5h-YM7">
+                                                <rect key="frame" x="191" y="334" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn5_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oQB-5K-5rM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tAK-zi-bE7">
+                                                <rect key="frame" x="191" y="359" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn6_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pwa-hH-pOp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mvc-tv-5PO">
+                                                <rect key="frame" x="191" y="437" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn7_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rz-gx-x0d"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uPH-Et-0Z0">
+                                                <rect key="frame" x="191" y="463" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn8_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cPj-cC-AqD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bTP-Pc-Sec">
+                                                <rect key="frame" x="191" y="536" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn9_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pL9-ze-5gd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NYa-Eu-e1s">
+                                                <rect key="frame" x="191" y="562" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn10_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Wj-kb-OVs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6G3-h5-QFK">
+                                                <rect key="frame" x="191" y="636" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn11_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JcN-1R-h1m"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tD6-Dv-n5U">
+                                                <rect key="frame" x="191" y="660" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn12_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Nv-DR-fMl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="C9v-pj-8ux">
+                                                <rect key="frame" x="191" y="740" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn13_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Li-ha-CJ6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BvE-Or-ZUg">
+                                                <rect key="frame" x="191" y="764" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn14_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CVf-EB-LN7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bQM-CQ-FLQ">
+                                                <rect key="frame" x="191" y="836" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn15_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Lk-cM-UF6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8PJ-nl-W2Z">
+                                                <rect key="frame" x="191" y="859" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn16_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccQ-ck-wlY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qvh-el-T1E">
+                                                <rect key="frame" x="191" y="937" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn17_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rb-5c-Zfe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="01W-v7-K7D">
+                                                <rect key="frame" x="191" y="961" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn18_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FtD-9S-bCg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="drj-vU-bPU">
+                                                <rect key="frame" x="191" y="1039" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="live.png"/>
+                                                <connections>
+                                                    <action selector="Btn19_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ezb-wv-RIj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gx2-js-Ewd">
+                                                <rect key="frame" x="191" y="1064" width="45" height="18"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="dead.png"/>
+                                                <connections>
+                                                    <action selector="Btn20_Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bmi-zc-BQB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gAk-wk-ffI">
+                                                <rect key="frame" x="145" y="1137" width="160" height="49"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <state key="normal" image="next.png">
+                                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="E2H-ED-uLO" kind="modal" identifier="Transfer" id="dGe-s3-fVS"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game of throns.jpg" id="aYF-Mo-Fd7">
+                                                <rect key="frame" x="8" y="8" width="304" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                            </scrollView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <inset key="insetFor6xAndEarlier" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="1500"/>
+                    <connections>
+                        <outlet property="Btn1" destination="lYw-tj-IgV" id="tHa-gQ-r2W"/>
+                        <outlet property="Btn10" destination="NYa-Eu-e1s" id="wZL-il-l0N"/>
+                        <outlet property="Btn11" destination="6G3-h5-QFK" id="Psz-7d-7Vi"/>
+                        <outlet property="Btn12" destination="tD6-Dv-n5U" id="9on-CF-uhA"/>
+                        <outlet property="Btn13" destination="C9v-pj-8ux" id="Mb9-cV-Arl"/>
+                        <outlet property="Btn14" destination="BvE-Or-ZUg" id="H5M-eA-M8r"/>
+                        <outlet property="Btn15" destination="bQM-CQ-FLQ" id="Xv0-PG-1YG"/>
+                        <outlet property="Btn16" destination="8PJ-nl-W2Z" id="Hpy-Ya-Lav"/>
+                        <outlet property="Btn17" destination="qvh-el-T1E" id="803-5n-iat"/>
+                        <outlet property="Btn18" destination="01W-v7-K7D" id="Mjv-0X-gJq"/>
+                        <outlet property="Btn19" destination="drj-vU-bPU" id="bMc-Z9-K1L"/>
+                        <outlet property="Btn2" destination="azu-Zd-ueZ" id="3Ca-Je-los"/>
+                        <outlet property="Btn20" destination="gx2-js-Ewd" id="Y5Q-zR-gtS"/>
+                        <outlet property="Btn3" destination="gXH-kR-hca" id="oZ3-Xc-RTN"/>
+                        <outlet property="Btn4" destination="K58-SK-GeD" id="6bY-ZU-n7V"/>
+                        <outlet property="Btn5" destination="VdW-5h-YM7" id="LmC-6f-ZQA"/>
+                        <outlet property="Btn6" destination="tAK-zi-bE7" id="rgI-6a-beR"/>
+                        <outlet property="Btn7" destination="Mvc-tv-5PO" id="mL6-Lh-Skt"/>
+                        <outlet property="Btn8" destination="uPH-Et-0Z0" id="vWr-vN-9MN"/>
+                        <outlet property="Btn9" destination="bTP-Pc-Sec" id="7Pn-wx-05f"/>
+                        <outlet property="ImgView1" destination="K4S-Nj-Ncn" id="NhX-q6-Z84"/>
+                        <outlet property="ImgView10" destination="e9a-jz-NJB" id="tRk-kf-I49"/>
+                        <outlet property="ImgView2" destination="JyZ-jL-26y" id="uGA-Eh-F9o"/>
+                        <outlet property="ImgView3" destination="Dhm-qv-WJT" id="4P2-7P-5G3"/>
+                        <outlet property="ImgView4" destination="5qL-oZ-wrS" id="kQ0-2S-3Aq"/>
+                        <outlet property="ImgView5" destination="com-Hx-REl" id="Al9-dC-9CL"/>
+                        <outlet property="ImgView6" destination="jG4-I3-qRp" id="QBu-86-Gdx"/>
+                        <outlet property="ImgView7" destination="CKY-DX-jH5" id="eSK-ua-fDR"/>
+                        <outlet property="ImgView8" destination="H1n-fc-TQj" id="gMG-m9-TKZ"/>
+                        <outlet property="ImgView9" destination="F1s-pJ-HSr" id="HUt-rb-J0b"/>
+                        <outlet property="Scroll" destination="z09-re-8fo" id="XGp-9Q-fcL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="75" y="293"/>
+        </scene>
+        <!--Results-->
+        <scene sceneID="r3v-vO-KdM">
+            <objects>
+                <viewController id="E2H-ED-uLO" customClass="Results" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zGY-Ff-0hD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corrects" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mhe-N5-lyE">
+                                <rect key="frame" x="241" y="40" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dvM-GB-okb">
+                                <rect key="frame" x="20" y="200" width="280" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="rvj-C7-mde">
+                                <rect key="frame" x="208" y="233" width="92" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M4I-kF-R0m">
+                                <rect key="frame" x="194" y="40" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="congrats.jpg" id="9cc-PW-B7r">
+                                <rect key="frame" x="0.0" y="69" width="320" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mge-eg-2Va"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="320"/>
+                    <connections>
+                        <outlet property="ImgView1" destination="rvj-C7-mde" id="6M0-1Z-NZI"/>
+                        <outlet property="LblResults" destination="dvM-GB-okb" id="Ajq-uc-01g"/>
+                        <outlet property="LblTotal" destination="M4I-kF-R0m" id="wco-jP-IUg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e32-ha-bpc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="293"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="JoffreyPic.png" width="280" height="197"/>
+        <image name="John SnowPic.jpg" width="280" height="190"/>
+        <image name="Jojen Reed Pic.jpg" width="280" height="190"/>
+        <image name="Lysa ArrynPic.jpg" width="280" height="190"/>
+        <image name="Oberyn MartellPic.jpg" width="280" height="190"/>
+        <image name="Renly BaratheonPic.jpg" width="280" height="190"/>
+        <image name="Shireen BaratheonPic.png" width="280" height="190"/>
+        <image name="Talisa StarkPic.jpg" width="280" height="190"/>
+        <image name="The Three Eyed RavenPic.jpg" width="280" height="190"/>
+        <image name="congrats.jpg" width="288" height="102"/>
+        <image name="dead.png" width="80" height="35"/>
+        <image name="game of throns.jpg" width="597" height="230"/>
+        <image name="live.png" width="68" height="35"/>
+        <image name="next.png" width="336" height="96"/>
+        <image name="robert baratheonPic.jpg" width="280" height="190"/>
+        <image name="warning.jpg" width="40" height="40"/>
+    </resources>
 </document>
